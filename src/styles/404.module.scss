@@ -1,12 +1,36 @@
-.error{
+.error {
     width: 100vw;
-    height:100vh;
-        display: flex;
+    height: 100vh;
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 
-    &__image{
+    background-color: #f5f7fa;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+
+    h1:first-of-type {
+        font-size: 80px;
+        font-weight: bold;
+        color: #ff4d4f;
+        margin: 0;
+    }
+
+    h1:last-of-type {
+        font-size: 28px;
+        color: #333;
+        margin: 10px 0;
+    }
+
+    p {
+        font-size: 16px;
+        color: #666;
+        margin-bottom: 20px;
+    }
+
+    &__image {
         width: 300px;
+        margin-bottom: 20px;
     }
 }
